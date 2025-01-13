@@ -38,3 +38,6 @@ npm run start
 ## To be system
 
 ![to_be_system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/to_be_system.iuml)
+
+## Use case
+![use_case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/usecase.iuml)

@@ -1,0 +1,41 @@
+@startuml
+
+actor "Guest" as guest
+actor "User" as user
+actor "Admin" as admin
+
+usecase "Signup" as UC_signup
+usecase "Check Duplicate Emp No" as UC_check_duplicate_emp_no
+usecase "Check Duplicate Email" as UC_check_duplicate_email
+usecase "Assign Role" as UC_assign_role
+usecase "Accept Signup" as UC_accept_signup
+usecase "Check Match User" as UC_check_match_user
+usecase "Check Match Password" as UC_check_match_password
+usecase "Log In" as UC_log_in
+usecase "Change Password" as UC_change_password
+usecase "Delete Account" as UC_delete_account
+usecase "Get All Account" as UC_get_all_account
+
+
+guest --> UC_signup
+UC_signup .u.> UC_check_duplicate_emp_no : <<include>>
+UC_signup .u.> UC_check_duplicate_email : <<include>>
+
+guest --> UC_log_in
+UC_log_in .u.> UC_check_match_user : <<include>>
+UC_log_in .u.> UC_check_match_password : <<include>>
+
+admin --> UC_assign_role
+
+admin --> UC_accept_signup
+
+admin --> UC_delete_account
+
+admin --> UC_get_all_account
+
+user --> UC_change_password
+UC_change_password .u.> UC_check_match_password : <<include>>
+UC_change_password .u.> UC_check_match_user : <<include>>
+
+
+@enduml
