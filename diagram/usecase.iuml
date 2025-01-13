@@ -1,9 +1,11 @@
 @startuml
+left to right direction
 
 actor "Guest" as guest
 actor "User" as user
 actor "Admin" as admin
 
+rectangle Authenicatioin {
 usecase "Signup" as UC_signup
 usecase "Check Duplicate Emp No" as UC_check_duplicate_emp_no
 usecase "Check Duplicate Email" as UC_check_duplicate_email
@@ -15,7 +17,7 @@ usecase "Log In" as UC_log_in
 usecase "Change Password" as UC_change_password
 usecase "Delete Account" as UC_delete_account
 usecase "Get All Account" as UC_get_all_account
-
+}
 
 guest --> UC_signup
 UC_signup .u.> UC_check_duplicate_emp_no : <<include>>
@@ -36,6 +38,5 @@ admin --> UC_get_all_account
 user --> UC_change_password
 UC_change_password .u.> UC_check_match_password : <<include>>
 UC_change_password .u.> UC_check_match_user : <<include>>
-
 
 @enduml
