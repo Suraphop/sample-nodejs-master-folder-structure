@@ -19,9 +19,6 @@ npm install jsonwebtoken
 
 - http://localhost:3001/api-docs
 
-
-
-
 ## To be system
 
 ![to_be_system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/to_be_system.iuml)
