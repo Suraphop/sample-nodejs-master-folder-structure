@@ -21,6 +21,9 @@
 - http://localhost:3001/api-docs
 
 
-//example create backend api with nodejs express for inventory system , design with oop
+#### example create backend api with nodejs express for inventory system , design with oop
 
-![example-uml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/example-uml.iuml)
+
+## To be system
+
+![to_be_system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/to_be_system.iuml)
