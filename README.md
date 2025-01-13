@@ -2,6 +2,7 @@
 
 ## setup library
 ```
+npm init -y
 npm install sequelize
 npm install express
 npm install cors
@@ -15,6 +16,21 @@ npm install joi
 npm install -g nodemon 
 npm install jsonwebtoken
 ```
+
+## Running a program
+dev mode
+```
+npm run dev
+```
+test mode
+```
+npm run test
+```
+production mode
+```
+npm run start
+```
+
 ## swagger
 
 - http://localhost:3001/api-docs

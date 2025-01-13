@@ -6,7 +6,7 @@
     "initDataTest": "npx run-func initial.js initDB",
     "test": "set NODE_ENV=test && npm run initDataTest && jest --coverage",
     "start": "set NODE_ENV=production && node server.js",
-    "dev": "set NODE_ENV=dev && node server.js"
+    "dev": "set NODE_ENV=dev && nodemon server.js"
   },
   "keywords": [],
   "author": "",
