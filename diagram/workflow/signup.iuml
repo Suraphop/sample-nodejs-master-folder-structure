@@ -9,7 +9,6 @@ start
 : click signup button;
 |SYSTEM|
 : check macthing Password and Repassword;
-
 : check Duplicate EmpNo;
 : check Duplicate Email;
 : insert to db;
