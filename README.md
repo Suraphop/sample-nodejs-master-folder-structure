@@ -1,4 +1,4 @@
-#  Example create backend api with nodejs express design by oop project
+#  Example create backend api with nodejs express project
 
 ## setup library
 ```
@@ -31,7 +31,7 @@ production mode
 npm run start
 ```
 
-## swagger
+## Swagger
 
 - http://localhost:3001/api-docs
 
@@ -41,3 +41,6 @@ npm run start
 
 ## Use case
 ![use_case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/usecase.iuml)
+
+## Class
+![class](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/class.iuml)

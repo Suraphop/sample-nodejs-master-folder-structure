@@ -1,0 +1,45 @@
+@startuml
+
+class Authenication {
+    - authId: int
+    - empNo: string
+    - email: string
+    - password: string
+    + signup(empNo,email,password,roleId,levelId,divisionId): void
+    + checkDuplicateEmpNo(emp_no): void
+    + checkDuplicateEmail(email): void
+    + assignRole(authId,roleID): void
+    + acceptSignup(empNo): void
+    + checkMatchUser(empNo): void
+    + checkMatchPassword(empNo): void
+    + logIn(empNo,password): void
+    + changePassword(password,newPassword): void
+    + deleteAccount(empNo): void
+    + getAllAccount(): List<Authenication>
+}
+
+class Role {
+    - roleId: int
+    - name: string
+    - description: string
+    + getRole(): List<Role>
+}
+
+class Level {
+    - levelId: int
+    - name: string
+    - description: string
+    + getLevel(): List<Level>
+}
+
+class Division {
+    - divisionId: int
+    - name: string
+    - description: string
+    + getDivision(): List<Division>
+}
+
+Authenication "1..*" -- "1" Level : includes
+Authenication "1..*" -- "1" Role : includes
+Authenication "1..*" -- "1" Division : includes
+@enduml
