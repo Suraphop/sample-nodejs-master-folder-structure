@@ -1,0 +1,18 @@
+@startuml
+
+title Login
+
+|GUEST|
+start
+: open login page;
+: input empNo, password;
+: click login button;
+|SYSTEM|
+: check empNo length == 5;
+: check password length >= 8;
+: check matching User;
+: check matching Password;
+: create token;
+: alert login success;
+stop
+@enduml
