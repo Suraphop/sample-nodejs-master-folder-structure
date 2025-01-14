@@ -8,7 +8,11 @@ start
 : input empNo, email, password, repassword , role , level , division;
 : click signup button;
 |SYSTEM|
-: check macthing Password and Repassword;
+: check empNo length == 5;
+: check password length >= 8;
+: check email must be minebea.co.th;
+: check missing input;
+: check matching Password and Repassword;
 : check Duplicate EmpNo;
 : check Duplicate Email;
 : insert to db;
