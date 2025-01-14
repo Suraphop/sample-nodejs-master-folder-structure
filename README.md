@@ -35,9 +35,9 @@ npm run start
 
 - http://localhost:3001/api-docs
 
-## To be system
+## Workflow
 
-![to_be_system](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/to_be_system.iuml)
+![signup](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/workflow/signup.iuml)
 
 ## Use case
 ![use_case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/usecase.iuml)

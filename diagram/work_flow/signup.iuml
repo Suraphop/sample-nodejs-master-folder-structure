@@ -1,0 +1,19 @@
+@startuml
+
+title Signup
+
+|GUEST|
+start
+: open signup page;
+: input empNo, email, password, repassword , role , level , division;
+: click signup button;
+|SYSTEM|
+: check macthing Password and Repassword;
+
+: check Duplicate EmpNo;
+: check Duplicate Email;
+: insert to db;
+: alert sign up success;
+: redirect to login page;
+stop
+@enduml
