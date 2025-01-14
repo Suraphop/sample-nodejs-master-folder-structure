@@ -5,7 +5,7 @@ actor "Guest" as guest
 actor "User" as user
 actor "Admin" as admin
 
-rectangle Authenicatioin {
+rectangle Authenication {
 usecase "Signup" as UC_signup
 usecase "Check Duplicate Emp No" as UC_check_duplicate_emp_no
 usecase "Check Duplicate Email" as UC_check_duplicate_email
