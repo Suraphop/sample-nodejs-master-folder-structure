@@ -39,6 +39,9 @@ npm run start
 
 ![signup](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/workflow/signup.iuml)
 
+## Wireframe
+![signup](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/wireframe/signup.iuml)
+
 ## Use case
 ![use_case](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/suraphop/sample-nodejs-master-folder-structure/master/diagram/usecase.iuml)
 

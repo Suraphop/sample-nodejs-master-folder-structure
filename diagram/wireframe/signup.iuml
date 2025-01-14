@@ -1,0 +1,14 @@
+@startsalt
+{
+SIGNUP
+---
+  Emp no    | "J6639"
+  Password | "*********"
+  Re Password | "*********"
+  Email | "suraphop.b@minebea.co.th"
+  Role | ^WAREHOUSE^
+  Level | ^Operator^
+  Division | ^PM^
+  [  SUBMIT   ]
+}
+@endsalt
