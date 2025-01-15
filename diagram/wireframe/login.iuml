@@ -4,6 +4,6 @@ LOGIN
 ---
   Emp no    | "J6639"
   Password | "*********"
-  [  SUBMIT   ] [  SIGNUP   ]
+  [  SUBMIT   ] | [  SIGNUP   ]
 }
 @endsalt
