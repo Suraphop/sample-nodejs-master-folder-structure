@@ -7,6 +7,7 @@ const jwt = require("jsonwebtoken");
 
 describe("End-to-End Tests for signup API", () => {
   it("should create a new user via POST /signup", async () => {
+    //Create : Data for create new user
     const Data = {
       emp_no: "E5130",
       password: "password",
@@ -53,6 +54,7 @@ describe("End-to-End Tests for signup API", () => {
   });
 
   it("should return 500 for invalid POST no have password /signup", async () => {
+    // Create : Data for create new user
     const Data = {
       emp_no: "E5130",
       repassword: "password",
@@ -74,6 +76,7 @@ describe("End-to-End Tests for signup API", () => {
   });
 
   it("should return 500 for invalid POST no have re password /signup", async () => {
+    // Create : Data for create new user
     const Data = {
       emp_no: "E5130",
       password: "password",
@@ -95,6 +98,7 @@ describe("End-to-End Tests for signup API", () => {
   });
 
   it("should return 500 for invalid POST no have email /signup", async () => {
+    // Create : Data for create new user
     const Data = {
       emp_no: "E5130",
       password: "password",
@@ -116,6 +120,7 @@ describe("End-to-End Tests for signup API", () => {
   });
 
   it("should return 500 for invalid POST role_id not found /signup", async () => {
+    // Create : Data for create new user
     const Data = {
       emp_no: "E5131",
       password: "password",
@@ -138,6 +143,7 @@ describe("End-to-End Tests for signup API", () => {
   });
 
   it("should return 500 for invalid POST level_id not found /signup", async () => {
+    // Create : Data for create new user
     const Data = {
       emp_no: "E5131",
       password: "password",
@@ -160,6 +166,7 @@ describe("End-to-End Tests for signup API", () => {
   });
 
   it("should return 500 for invalid POST division_id not found /signup", async () => {
+    // Create : Data for create new user
     const Data = {
       emp_no: "E5131",
       password: "password",
@@ -182,6 +189,7 @@ describe("End-to-End Tests for signup API", () => {
   });
 
   it("should return 500 for invalid POST emp no duplicate /signup", async () => {
+    // Create : Data for create new user
     const Data = {
       emp_no: "E5130",
       password: "password",
@@ -204,6 +212,7 @@ describe("End-to-End Tests for signup API", () => {
   });
 
   it("should return 500 for invalid POST email duplicate /signup", async () => {
+    // Create : Data for create new user
     const Data = {
       emp_no: "E5131",
       password: "password",
@@ -228,6 +237,7 @@ describe("End-to-End Tests for signup API", () => {
 
 describe("End-to-End Tests for login API", () => {
   it("should create a jwt login token via POST /login", async () => {
+    // Create : Data for login
     const Data = {
       emp_no: "E5130",
       password: "password",
@@ -242,6 +252,7 @@ describe("End-to-End Tests for login API", () => {
   });
 
   it("should return 500 for invalid POST emp no not found /login", async () => {
+    // Create : Data for login
     const Data = {
       emp_no: "E9999",
       password: "password",
@@ -256,6 +267,7 @@ describe("End-to-End Tests for login API", () => {
   });
 
   it("should return 500 for invalid POST password mistake /login", async () => {
+    // Create : Data for login
     const Data = {
       emp_no: "E5130",
       password: "mistakepassword",
