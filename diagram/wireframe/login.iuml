@@ -1,0 +1,9 @@
+@startsalt
+{
+SIGNUP
+---
+  Emp no    | "J6639"
+  Password | "*********"
+  [  SUBMIT   ] [  SIGNUP   ]
+}
+@endsalt
